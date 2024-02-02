@@ -3,7 +3,8 @@
     height: auto;
     margin: auto;
     overflow: hidden;
-    background-image: url(backgroound.23);
+    background-image: url(wp10302006.png);
+ 
 }
 .menu-bar{
     width: 100%;
@@ -14,7 +15,6 @@
 .logo{
     width: 27%;
     height: auto;
-    background-color: #000000;
     float: left;
     font-size: 30px;
     color: white;
@@ -23,10 +23,11 @@
     margin-top: 10px;
 }
 .menu{
-    width: 70%;
+    width: 40%;
     height: auto;
     float: right;
     margin-top: 30px;
+    
 }
 .menu ul{
     margin: 0;
@@ -47,7 +48,7 @@
     text-transform: uppercase;
 }
 .menu ul li a:hover{
-    background-color: #46315c;
+    background-image: linear-gradient(black, red, black);
     color: black;  
 }
 .box-t{
@@ -73,6 +74,7 @@
 .box1{
     width: 40%;
     height: 600px;
+    transition: transform .1s;
 
 }
 .box1 img{
@@ -82,9 +84,12 @@
     height: 100%;
     
 }
-.box1 img:hover{
-   width: 105%;
-   transform: scale(0.5s);
+.box1:hover{
+    
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+   
    
 }
 .box1 p{
@@ -98,6 +103,7 @@
 }.box2{
     width: 40%;
     height: 600px;
+    transition: tranform .1s;
 
 }
 .box2 img{
@@ -116,6 +122,7 @@
     top: 62%;
     transform: translate(-50%, -50%);
 }
+   
 
 .box-g{
     width: 100%;
@@ -156,6 +163,7 @@
 }.box4{
     width: 40%;
     height: 600px;
+    background-color: blue;
 
 }
 .box4 img{
@@ -173,4 +181,28 @@
     left: 69%;
     top: 120%;
     transform: translate(-50% -50%);
+}
+.footer{
+    margin-top: 5%;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    margin-left: 5%;
+}
+.footer-1{
+    width: 30%;
+    height: 200px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    color: rgb(12, 0, 180);
+}
+.footer-2{
+    width: 30%;
+    height: 200px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    color: rgb(12, 0, 180);
+    margin-top: 3%;
+
 }

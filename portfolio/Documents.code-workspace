@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../guts"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "guts"
+	}
+}
