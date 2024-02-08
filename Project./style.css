@@ -3,7 +3,7 @@
     height: auto;
     margin: auto;
     overflow: hidden;
-    background-image: url(wp10302006.png);
+    background-color: rgb(0, 0, 0);
  
 }
 .menu-bar{
@@ -16,17 +16,19 @@
     width: 27%;
     height: auto;
     float: left;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     color: white;
-    font-weight: bold;
-    margin-left: 50px;
+    font-weight: 700;
+    margin-left: 5%;
     margin-top: 10px;
 }
 .menu{
     width: 40%;
     height: auto;
     float: right;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-right: 10%;
     
 }
 .menu ul{
@@ -42,12 +44,13 @@
     display: block;
     padding: 20px;
     font-size: 20px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-decoration: none;
+    font-weight: 700;
+    
     text-transform: uppercase;
 }
 .menu ul li a:hover{
-    background-image: linear-gradient(black, red, black);
+    background-color: whitesmoke;
     color: black;  
 }
