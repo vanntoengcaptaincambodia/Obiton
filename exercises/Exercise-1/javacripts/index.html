@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <title>Responsive Profile Cards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <section>
+      <h1>Using HTML to fill information</h1>
+      <hr>
+      <div class="card_container">
+        <div class="card_data">
+          <img src="images/profile.jpeg" alt="profile image" />
+          <div class="pro_content">
+            <h2>Monika</h2>
+            <p class="position">Chief Executive Officer</p>
+            <p>She a professional programmer working for Google company</p>
+            <div class="social_icons">
+              <span><i class="fa fa-brands fa-twitter"></i></span>
+              <span><i class="fa fa-brands fa-facebook"></i></span>
+              <span><i class="fa fa-brands fa-youtube"></i></span>
+              <span><i class="fa fa-brands fa-instagram"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="card_data">
+          <img src="images/profile.jpeg" alt="profile image" />
+          <div class="pro_content">
+            <h2>Sreymey</h2>
+            <p class="position">Chief Executive Officer</p>
+            <p>She a professional programmer working for Facebook company</p>
+            <div class="social_icons">
+              <span><i class="fa fa-brands fa-twitter"></i></span>
+              <span><i class="fa fa-brands fa-facebook"></i></span>
+              <span><i class="fa fa-brands fa-youtube"></i></span>
+              <span><i class="fa fa-brands fa-instagram"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h1>Using JavaScript Variables to fill information</h1>
+      <hr>
+      <div class="card_container">
+        <div class="card_data">
+          <img src="images/profile.jpeg" id="img1" alt="profile image" />
+          
+          <div class="pro_content">
+            <h2 id="profile_name1">
+              <!-- add content here by JavaScript -->
+            </h2>
+              
+            <p id="position1" class="position">
+              
+              <!-- add content here by JavaScript -->
+            </p>
+            <p id="desc1">
+              He's a software engineer working for Microsoft company
+              <!-- add content here by JavaScript -->
+            </p>
+            <div class="social_icons">
+              <span><i class="fa fa-brands fa-twitter"></i></span>
+              <span><i class="fa fa-brands fa-facebook"></i></span>
+              <span><i class="fa fa-brands fa-youtube"></i></span>
+              <span><i class="fa fa-brands fa-instagram"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="card_data">
+          <img id="img2" alt="profile image" /> <!-- update src for this image by JavaScript -->
+          <div class="pro_content">
+            <h2 id="profile_name2">
+              
+            </h2>
+            <p id="position2" class="position">
+              <!-- add content here by JavaScript -->
+            </p>
+            <p id="desc2">
+              <!-- add content here by JavaScript -->
+              He's a software engineer working for Microsoft company
+            </p>
+            <div class="social_icons">
+              <span><i class="fa fa-brands fa-twitter"></i></span>
+              <span><i class="fa fa-brands fa-facebook"></i></span>
+              <span><i class="fa fa-brands fa-youtube"></i></span>
+              <span><i class="fa fa-brands fa-instagram"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="script.js">
+    
+  </script>
+</body>
+
+</html>
